@@ -1,7 +1,7 @@
 import axios from "axios"
 
 
-const API_KEY = process.env.API_KEY 
+const API_KEY = process.env.API_KEY || "82b4681ae4a40469c0752ce684a1db8c"
 
 export type WeatherResType = {
     main:{
